@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6031F"
+    tools:context=".Menu">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <View
+
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@color/black" />
+
+        <TextView
+
+            android:id="@+id/titulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="36dp"
+            android:text="Cálculo de Temperaturas"
+            android:textStyle="bold"
+            android:textColor="#050504"
+            android:textSize="40sp"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+
+            android:id="@+id/image1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="32dp"
+            android:src="@drawable/c_f" />
+
+        <Button
+
+            android:id="@+id/button_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/subtitulo"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:text="Celsius para Fahrenheit"
+            android:textColor="#FEFFFE"
+            android:textSize="22sp" />
+
+        <ImageView
+
+            android:id="@+id/image2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="32dp"
+            android:src="@drawable/f_c" />
+
+        <Button
+
+            android:id="@+id/button_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/subtitulo"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:text="Fahrenheit para Celsius"
+            android:textColor="#FAFAFA"
+            android:textSize="22sp" />
+
+        <ImageView
+
+            android:id="@+id/image3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="32dp"
+            android:src="@drawable/c_k" />
+
+        <Button
+
+            android:id="@+id/button_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/subtitulo"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:text="Celsius para Kelvin"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp" />
+
+        <ImageView
+
+            android:id="@+id/image4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="32dp"
+            android:src="@drawable/k_c" />
+
+        <Button
+
+            android:id="@+id/button_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/subtitulo"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:text="Kelvin para Celsius"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp" />
+
+        <ImageView
+
+            android:id="@+id/image6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="32dp"
+            android:src="@drawable/f_k" />
+
+        <Button
+
+            android:id="@+id/button_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/subtitulo"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:text="Fahrenheit para Kelvin"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp" />
+
+    </LinearLayout>
+
+</ScrollView>

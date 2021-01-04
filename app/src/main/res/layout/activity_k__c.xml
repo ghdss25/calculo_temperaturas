@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".K_C">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <View
+
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@color/black" />
+
+        <TextView
+
+            android:id="@+id/titulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="-6dp"
+            android:layout_marginTop="20dp"
+            android:text="Kelvin para Celsius"
+            android:textColor="#020202"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+
+            android:id="@+id/image2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="32dp"
+            android:src="@drawable/k_c" />
+
+        <TextView
+
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="-80dp"
+            android:layout_marginTop="50dp"
+            android:text="K = "
+            android:textColor="#020202"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints" />
+
+        <EditText
+
+            android:id="@+id/T00"
+            android:layout_width="64dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="155dp"
+            android:layout_marginTop="-51dp"
+            android:ems="400"
+            android:inputType="textPersonName"
+            android:textColor="#EF0A0A"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="47dp"
+            android:layout_marginTop="-49dp"
+            android:text=" + 32"
+            android:textColor="#020202"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+
+            android:id="@+id/button_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/subtitulo"
+            android:layout_gravity="center"
+            android:layout_marginTop="70dp"
+            android:onClick="K_p_C"
+            android:text="Calcular"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp" />
+
+        <TextView
+
+            android:id="@+id/text9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="24dp"
+            android:layout_marginLeft="10dp"
+            android:text="Resp"
+            android:textStyle="bold"
+            android:textColor="#020202"
+            android:textSize="40sp"
+            tools:ignore="MissingConstraints" />
+
+    </LinearLayout>
+
+</ScrollView>
