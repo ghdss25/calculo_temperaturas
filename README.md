@@ -39,7 +39,7 @@ O projeto foi desenvolvido com as seguintes tecnologias:
 ## Apresentação do Projeto - Cálculo de Temperaturas
 
 <h1 align = "center">
-    <img src="Calculo_temperaturas.gif">
+    <img src="Calculo_Temperaturas.gif">
 
 ---
 ---

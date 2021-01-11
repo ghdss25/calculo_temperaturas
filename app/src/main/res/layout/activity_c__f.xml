@@ -68,7 +68,7 @@
             android:layout_marginStart="140dp"
             android:layout_marginTop="-55dp"
             android:ems="400"
-            android:inputType="textPersonName"
+            android:inputType="number"
             android:textColor="#EF0A0A"
             android:textSize="30sp"
             android:textStyle="bold"
